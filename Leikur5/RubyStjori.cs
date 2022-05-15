@@ -72,7 +72,7 @@ using UnityEngine.UI;
             Launch();
         }
 
-        // ef gimsteinatalið er minna eða jafnt og -1
+        // ef gimsteinatalið er minna eða jafnt og -1 byrjar maður aftur frá byrjun
         if(count <= -1)
         {
             SceneManager.LoadScene("Start");
