@@ -25,6 +25,8 @@ public class Projectile : MonoBehaviour
         }
     }
     
+    
+    // Í þessu verkefni gerir þessi kóði að neðan ekkert, en hann er en í notkun í fyrirverandi verkfni
     void OnCollisionEnter2D(Collision2D other)
     {
         // Segir vélmenninu til að lagast ef tannhjólið rekst á það
