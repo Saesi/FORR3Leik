@@ -138,7 +138,7 @@ using UnityEngine.UI;
     }
 
 
-    // ef rekst er á óvin eða gimstein(Coin)
+    // ef rekst er á óvin eða gimstein(Coin) og hækkar og lækkar talið eftir hvað rekst er á
     void OnCollisionEnter2D(Collision2D other)
     {
         if (other.collider.tag == "Coin")
