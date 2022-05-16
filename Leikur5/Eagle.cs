@@ -32,6 +32,7 @@ public class Eagle : MonoBehaviour
         }
     }
     
+    //Hreyfir sig
     void FixedUpdate()
     {
         Vector2 position = rigidbody2D.position;
