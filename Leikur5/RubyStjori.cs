@@ -78,7 +78,7 @@ using UnityEngine.UI;
             SceneManager.LoadScene("Start");
         }
 
-        // Telur fjöldi óvina
+        // Telur gimsteina
         GameObject[] gameObjects;
         gameObjects = GameObject.FindGameObjectsWithTag("Coin");
 
